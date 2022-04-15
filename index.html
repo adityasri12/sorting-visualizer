@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Sorting Visualizer</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body id = "bdy">
+	<ul class = "ulfor">
+	  <li><a class="active" onclick="sort()">Sort</a></li>
+	  <li><a onclick="generate()">Generate</a></li>
+	  <li id="myRangediv"><a class = "hey"><input type="range" min="5" max="100" value="50" class="slider" id="myRange"><p>Number of items in array</p></a></li>
+	  <li id="Rangesdiv"><a class = "hey"><input type="range" min="100" max="2000" value="100" class="slider" id="Ranges"><p>Time of execution</p></a></li>
+	  <li><a id = "stop" onclick = "stop()">Stop</a></li>
+	  <div class = "sortingtype">
+		<li><a class = "typesof" onclick = "bubble()">Bubble</a></li>
+		<li><a class = "typesof" onclick = "merge()">Merge</a></li>
+		<li><a class = "typesof" onclick = "heap()">Heap</a></li>
+		<li><a class = "typesof" onclick = "selection()">Selection</a></li>
+	</div>
+	</ul>
+	<script src = "script.js">
+	</script>
+</body>
+</html>

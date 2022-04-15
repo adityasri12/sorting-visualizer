@@ -1,0 +1,72 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+*{
+  transition: .5s ease;
+}
+
+.division{
+  background: red;
+  position: absolute;
+  top: 77px;
+}
+
+/*@media (max-height: )*/
+
+ul {
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  width: 200%;
+  left: -10px;
+  height: 87px;
+  top: -10px;
+  background-color: #181818 !important;
+}
+
+li {
+  float: left;
+  height: 87px !important;
+  cursor: pointer;
+}
+
+li a {
+  display: flex;
+  height: 87px !important;
+  color: white;
+  padding: 40px 30px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active,.typesof) {
+  background-color: #ED6436;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+.typesof{
+  background-color: hsl(25, 97%, 53%);
+}
+
+.typesof:hover{
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+#Rangesdiv,#myRangediv{
+  top: 40px;
+}
+
+p{
+  margin: 35px 20px;
+}
+
+.hey{
+  padding: 5px 0px;
+}
